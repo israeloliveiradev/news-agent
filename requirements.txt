@@ -1,0 +1,24 @@
+# requirements.txt
+
+# Coleta de dados
+feedparser==6.0.11       # Parser de RSS feeds
+requests==2.31.0         # Requisições HTTP
+
+# Processamento
+pandas==2.2.0            # Manipulação de dados
+scikit-learn==1.4.0      # TF-IDF, DBSCAN (deduplicação)
+
+# IA
+groq==0.4.2              # Cliente da API Groq (LLM grátis)
+
+# Entrega
+python-telegram-bot==21.0  # Bot Telegram
+
+# Utilitários
+python-dotenv==1.0.1     # Carrega .env
+pyyaml==6.0.1            # Lê arquivos YAML
+schedule==1.2.1          # Agendamento de tarefas
+
+# Desenvolvimento (opcional)
+pytest==8.0.0            # Testes
+black==24.1.0            # Formatação de código
